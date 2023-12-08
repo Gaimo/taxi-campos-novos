@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Inter&amp;family=Oswald&amp;display=swap&#39;);
+
+:root {
+    --text-primary-color: #1e1e1e;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    text-align: center;
+    font-style: normal;
+    line-height: normal;
+}
+
+h1 {
+    color: var(--text-primary-color);
+    
+    font-family: Bebas Neue;
+    font-size: 4.9rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    line-height: 0.6;
+}
+
+h2 {
+    color: #222;
+    font-family: Oswald;
+    font-size: 2.4rem;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.phone {
+    color: #1E1E1E;
+    text-align: left;
+    font-family: Oswald;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+
+.button-yellow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+    background: #FFD84E;
+    text-decoration: none;
+    color: #1E1E1E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 4rem;
+    max-width: 15rem;
+}
+
+.button-yellow img,
+.button-green img {
+    height: 32px;
+    margin-right: 5px;
+}
+
+.button-green {
+    border-radius: 1.5rem;
+    background: #4FCA5D;
+    color: #E7F4E9;
+    text-align: center;
+    font-family: Inter;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    height: 4rem;
+    max-width: 15rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    max-width: 425px;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.taxi-pic {
+    object-fit: scale-down;
+    width: 100%;
+
+}
+
+.title {
+    flex: 1;
+}
+
+.div-taxi-pic {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    flex: 2;
+    display: flex;
+}
+
+.contatos {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex: 1;
+}

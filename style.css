@@ -130,3 +130,7 @@ h2 {
     gap: 1rem;
     flex: 1;
 }
+
+.description {
+    font-size: 1.4rem;
+}
